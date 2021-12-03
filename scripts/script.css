@@ -9,10 +9,10 @@ body {
   
   .navbar a {
     float: right;
-    font-size: 16px;
+    font-size: 25px;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 4px 8px;
     text-decoration: none;
   }
   
@@ -22,18 +22,18 @@ body {
   }
   
   .dropdown .dropbtn {
-    font-size: 16px;  
+    font-size: 25px;  
     border: none;
     outline: none;
     color: white;
-    padding: 14px 16px;
+    padding: 4px 8px;
     background-color: inherit;
     font-family: inherit;
     margin: 0;
   }
   
   .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: red;
+    background-color: #bfbfbf;
   }
   
   .dropdown-content {
@@ -48,7 +48,7 @@ body {
   .dropdown-content a {
     float: none;
     color: black;
-    padding: 9px 9px;
+    padding: 9px 8px;
     text-decoration: none;
     display: block;
     text-align: left;
@@ -60,6 +60,13 @@ body {
   
   .dropdown:hover .dropdown-content {
     display: block;
+  }
+  h1{
+      font: #bfbfbf00;
+      font-family: cursive;
+  }
+  div.a{
+      text-align: center;
   }
 
 
