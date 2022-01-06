@@ -65,39 +65,25 @@ body {
       font: #bfbfbf00;
       font-family: cursive;
   }
-  div.a{
-      text-align: center;
+  * {
+    box-sizing: border-box;
   }
-  div.item {
-    vertical-align: top;
-    display: inline-block;
-    text-align: center;
-    width: 800px;
-    font-size: 30px;
-}
-#img5{
-    width: 550px;
-    height: 500px;
-    background-color: grey;
-}
-.caption {
-    display: block;
-}
+  
+  .column {
+    float: right;
+    width: 33%;
+    padding: 5px;
+  }
+  
 
-div.item1 {
-  vertical-align: top;
-  display: inline-block;
-  text-align: center;
-  width: 800px;
-  font-size: 30px;
-  float: right;
-}
-#img6{
-  width: 550px;
-  height: 500px;
-  background-color: grey;
-}
-.caption2 {
-  display: block;
-}
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 
+  .column1 {
+    float: right;
+    width: 31%;
+    padding: 5px;
+  }
