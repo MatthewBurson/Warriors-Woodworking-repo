@@ -20,18 +20,17 @@
           <i class="fa fa-caret-down"></i>
         </button>
     <div class="dropdown-content">
-      <a href="custom.html">Custom</a>
-      <a href="cart.html">Cart</a>
+      <a href="custom.html">Custom</a>    
       <a href="contact.html">Contact</a>
     </div>
   </div> 
-  <a href="product.html">Products</a>
-  <a href="about.html">About</a>
+      <a href="cart.html">Cart</a>
+    <a href="about.html">About</a>
     <a href="main.html">Home</a>
   </div>
 </div>
 <br>
-<div class="row">
+  <div class="row">
   <div class="column">
     <img src="Pictures/aydin.JPG" alt="aydin" style="width:70%">
   </div>
@@ -43,18 +42,73 @@
   </div>
 </div>
   <center><h1>This is Emily & Aydin and they are the creators of Warrior Woodworking</h1></center>
+  <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 5</div>
+      <img src="Pictures/IMG_2164[1] (1).JPG" style="width:30%">
+    </div> 
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 5</div>
+      <img src="Pictures/IMG_2149[1].JPG" style="width:30%">
+    </div>  
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 5</div>
+      <img src="Pictures/IMG_2147[1].JPG" style="width:30%">
+    </div>  
+    <div class="mySlides fade">
+      <div class="numbertext">4 / 5</div>
+      <img src="Pictures/IMG_2165[1].JPG" style="width:30%">
+    </div> 
+    <div class="mySlides fade">
+      <div class="numbertext">5 / 5</div>
+      <img src="Pictures/IMG_2154[1].JPG" style="width:30%">
+    </div> 
+    </div>
+    <br>  
+    <div style="text-align:center">
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+    </div>
+    <script>
+      var slideIndex = 0;
+      showSlides();
+      
+      function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}    
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";  
+        dots[slideIndex-1].className += " active";
+        setTimeout(showSlides, 2000); // Change image every 2 seconds
+      }
+    </script> 
   <div class="row">
     <div class="column1">
-      <img src="Pictures/bunny-morgan.png" alt="Morgan" style="width:80%">
+      <img src="Pictures/person-icon.png" alt="Morgan" style="width:80%">
     </div>
     <div class="column1">
-      <img src="Pictures/dog_mat.png" alt="Matthew" style="width:80%">
+      <img src="Pictures/person-icon.png" alt="Matthew" style="width:80%">
     </div>
     <div class="column1">
-      <img src="Pictures/kola-dray.png" alt="Aundraya" style="width:70%">
+      <img src="Pictures/person-icon.png" alt="Aundraya" style="width:80%">
     </div>
   </div>
   <center><h1>Developing team</h1></center>
-  <center><p>Left to right; Aundraya, Matthew, & Morgan</p></center>
+  <center><p>Left to right; Morgan, Matthew, & Aundraya</p></center>
+
+      
 </body>
 </html>
+
