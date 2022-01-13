@@ -87,6 +87,18 @@ body {
     width: 31%;
     padding: 5px;
   }
+  .column2 {
+    float: right;
+    margin-left: 3.5%;
+    width: 31%;
+    padding: 5px;
+  }
+  .column3{
+    float: right;
+    width: 31%;
+    padding: 5px;
+    
+  }
   address { 
     display: block;
     font-style: inherit;

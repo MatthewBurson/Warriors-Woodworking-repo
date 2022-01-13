@@ -1,0 +1,76 @@
+
+#mlogo{
+    position: absolute;
+  margin-top: -1000px;  
+}
+
+@media only screen and (orientation: portrait) and (min-width: 1in) and (max-width: 10in) {
+
+    #dlogo{
+        position: absolute;
+        margin-top: -1000px;  
+    }
+    #mlogo{
+        position: relative;
+      margin-top: 0px;  
+    }
+
+    .Mobilenav {
+        overflow: hidden;
+        background-color: #b30000;
+      }
+      
+      .Mobilenav a {
+        float: right;
+        font-size: 25px;
+        color: black;
+        text-align: center;
+        padding: 4px 8px;
+        text-decoration: none;
+      }
+      .dropdown {
+        float: right;
+        overflow: hidden;
+      }
+      
+      .dropdown .dropbtn {
+        font-size: 25px;  
+        border: none;
+        outline: none;
+        color: black;
+        padding: 4px 8px;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0;
+      }
+      
+      .navbar a:hover, .dropdown:hover .dropbtn {
+        background-color: #bfbfbf;
+      }
+      
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 9px 9px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      
+      .dropdown-content a {
+        float: none;
+        color: black;
+        padding: 9px 8px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+      }
+      
+      .dropdown-content a:hover {
+        background-color: #ddd;
+      }
+      
+      .dropdown:hover .dropdown-content {
+        display: block;
+}
+}
