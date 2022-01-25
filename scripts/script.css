@@ -127,6 +127,9 @@ body {
   animation-name: fade;
   animation-duration: 2s;
 }
+.slideshow-container{
+  size: 100%;
+}
 
 @-webkit-keyframes fade {
   from {opacity: .4} 

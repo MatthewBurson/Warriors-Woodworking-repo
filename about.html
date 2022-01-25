@@ -32,26 +32,6 @@
     <a href="home.html">Home</a>
   </div>
 </div>
-<!--Mobile Nav-->
-<div class="navbar" id="mlogo" >
-  <img src="Pictures/officialLOGO.png" width="200">
-  <div class="a">
-  <center><h1>Warrior Woodworking</h1></center>
-      <a href="cart.html">Cart</a>
-        <div class="dropdown">
-      <button class="dropbtn">More
-        <i class="fa fa-caret-down"></i>
-      </button>
-  <div class="dropdown-content">
-    <a href="custom.html">Custom</a>    
-    <a href="contact.html">Contact</a>
-  </div>
-</div> 
-    
-  <a href="about.html">About</a>
-  <a href="home.html">Home</a>
-</div>
-</div>
 <br>
   <div class="row">
   <div class="column">
@@ -65,52 +45,36 @@
   </div>
 </div>
   <center><h1>This is Emily & Aydin and they are the creators of Warrior Woodworking</h1></center>
-  <div class="slideshow-container">
+
+  <!--Desktop slides-->
+  <div class="slideshow-container" id="dslides">
     <div class="mySlides fade">
-      <img src="Pictures/IMG_2164[1] (1).JPG" style="width:30%">
+      <img src="Pictures/IMG_2164[1] (1).JPG" style="width:50%">
     </div> 
     <div class="mySlides fade">
-      <img src="Pictures/IMG_2149[1].JPG" style="width:30%">
+      <img src="Pictures/IMG_2149[1].JPG" style="width:50%">
     </div>  
     <div class="mySlides fade">
-      <img src="Pictures/IMG_2147[1].JPG" style="width:30%">
+      <img src="Pictures/IMG_2147[1].JPG" style="width:50%">
     </div>  
     <div class="mySlides fade">
-      <img src="Pictures/IMG_2165[1].JPG" style="width:30%">
+      <img src="Pictures/IMG_2165[1].JPG" style="width:50%">
     </div> 
     <div class="mySlides fade">
-      <img src="Pictures/IMG_2154[1].JPG" style="width:30%">
+      <img src="Pictures/IMG_2154[1].JPG" style="width:50%">
     </div> 
     </div>
     <br>  
-    <div style="text-align:center">
+    <div style="text-align:center" id="dslides">
       <span class="dot"></span> 
       <span class="dot"></span> 
       <span class="dot"></span> 
       <span class="dot"></span> 
       <span class="dot"></span> 
-    </div>
-    <script>
-      var slideIndex = 0;
-      showSlides();
       
-      function showSlides() {
-        var i;
-        var slides = document.getElementsByClassName("mySlides");
-        var dots = document.getElementsByClassName("dot");
-        for (i = 0; i < slides.length; i++) {
-          slides[i].style.display = "none";  
-        }
-        slideIndex++;
-        if (slideIndex > slides.length) {slideIndex = 1}    
-        for (i = 0; i < dots.length; i++) {
-          dots[i].className = dots[i].className.replace(" active", "");
-        }
-        slides[slideIndex-1].style.display = "block";  
-        dots[slideIndex-1].className += " active";
-        setTimeout(showSlides, 2000); // Change image every 2 seconds
-      }
-    </script> 
+    </div>
+  
+
   <div class="row">
     <div class="column1">
       <img src="Pictures/person-icon.png" alt="Morgan" style="width:80%">
@@ -125,7 +89,7 @@
   <center><h1>Developing team</h1></center>
   <center><p>Left to right; Morgan, Matthew, & Aundraya</p></center>
 
-      
+  <script type="text/javascript" src="scripts/javascript.js"></script>
 </body>
 </html>
 
